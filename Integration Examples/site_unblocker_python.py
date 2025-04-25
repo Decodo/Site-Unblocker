@@ -1,13 +1,13 @@
 import requests
 
 proxies = {
-  'http': 'http://USERNAME:PASSWORD@unblock.smartproxy.com:60000',
-  'https': 'http://USERNAME:PASSWORD@unblock.smartproxy.com:60000'
+  'http': 'http://USERNAME:PASSWORD@unblock.decodo.com:60000',
+  'https': 'http://USERNAME:PASSWORD@unblock.decodo.com:60000'
 }
 
 response = requests.request(
     'GET',
-    'https://ip.smartproxy.com/',
+    'https://ip.decodo.com/',
     verify=False,
     proxies=proxies
 )
